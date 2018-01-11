@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sheygam.masa_2017_g2_11_01_18_actions.EditActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type name"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:id="@+id/inputName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type email"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:id="@+id/inputEmail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type phone"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:id="@+id/inputPhone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/okBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"/>
+</RelativeLayout>
